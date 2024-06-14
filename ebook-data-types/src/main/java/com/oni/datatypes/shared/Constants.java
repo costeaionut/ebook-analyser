@@ -1,4 +1,4 @@
-package com.oni.ebookwebapp.shared;
+package com.oni.datatypes.shared;
 
 public final class Constants {
     public static final String GUTENBERG_URL_REGEX = "^(https:\\/\\/)?www\\.gutenberg\\.org\\/ebooks\\/\\d+$";

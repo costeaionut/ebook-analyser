@@ -14,6 +14,6 @@ public class FormatValidator implements ConstraintValidator<Format, String> {
 
     @Override
     public boolean isValid(String s, ConstraintValidatorContext constraintValidatorContext) {
-        return s != null && !s.isEmpty() && s.matches(regex);
+        return s != null && s.matches(regex);
     }
 }
